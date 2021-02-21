@@ -71,12 +71,49 @@ p {
     margin: 0 auto;
 }
 
+.header-banner {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    
+}
+
+.link-bar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.nav img {
+    height: 50px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+#header-title {
+    padding: 0 20px 0 20px;
+}
+
+#header-area {
+    padding: 0 20px 20px 20px;
 }
 
 .top-content .text-container {
@@ -90,9 +127,42 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.middle-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-container {
+    display: flex;
+}
+
+.middle-title {
+    padding-top: 20px;
+}
+
+.row-column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 20px 20px;
+    padding: 0 0 20px 0;
+    border-bottom: 1px dashed black;
+}
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+}
+
+.button {
+    display: block;
+    height: 40px;
+    width: 120px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 20px;
 }
 
 .middle-content .boxes {
@@ -112,6 +182,45 @@ p {
     justify-content: center;
 }
 
+#box-1 {
+    background-color: teal;
+}
+
+#box-2 {
+    background-color: gold;
+}
+
+#box-3 {
+    background-color: cadetblue;
+}
+
+#box-4 {
+    background-color: coral;
+}
+
+#box-5 {
+    background-color: crimson;
+}
+
+#box-6 {
+    background-color: forestgreen;
+}
+#box-7 {
+    background-color: darkorchid;
+}
+
+#box-8 {
+    background-color: hotpink;
+}
+
+#box-9 {
+    background-color: indigo;
+}
+
+#box-10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +233,10 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-section {
+    padding: 30px 20px;
 }
 
 footer {
